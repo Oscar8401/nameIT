@@ -1,0 +1,44 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Song+Myung');
+
+body {
+    background-color: #f69680;
+    color: #2e1263;
+    font-family: 'Song Myung', serif;
+    font-weight:200;
+}
+h1 {
+    /*color: purple;*/
+    font-weight:200;
+    text-transform:uppercase;
+    border-top: 5px solid;
+    /*font-size: 70px;*/
+}
+img {
+    height:500px;
+    border-radius:50%;
+}
+#container {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+}
+button {
+    margin: 30px auto 0;
+    padding: 20px 25px;
+    background-color: #f69680;
+    font-size:14px;
+    text-align:center;
+    border: 1px solid #2e1263;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline:none;
+    letter-spacing:4px;
+    color:#2e1263;
+}
+button:hover {
+    transition:0.2s;
+    background-color: #2e1263;
+    color:#f69680;
+}
